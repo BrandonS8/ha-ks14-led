@@ -1,0 +1,27 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "title": "Set up KS14 LED",
+        "description": "Select a KeepSmile KS14~ light. Close the phone or desktop app first — the controller only allows one Bluetooth connection.",
+        "data": {
+          "address": "Device"
+        }
+      },
+      "bluetooth_confirm": {
+        "title": "Set up KS14 LED",
+        "description": "Do you want to set up {name}?"
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Keep the light nearby, disconnect other apps, and try again."
+    },
+    "abort": {
+      "already_configured": "This device is already configured.",
+      "no_devices_found": "No KS14~ devices found. Enable Bluetooth (or a Bluetooth Proxy) and power on the light.",
+      "not_supported": "This device is not a KS14~ controller.",
+      "cannot_connect": "Failed to connect to the device."
+    }
+  }
+}
